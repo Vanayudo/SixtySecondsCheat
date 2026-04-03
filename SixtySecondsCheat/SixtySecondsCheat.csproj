@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <AssemblyName>SixtySecondsCheat</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        
+        <!-- 添加这行，禁用自动生成 AssemblyInfo -->
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- BepInEx 核心 -->
+        <Reference Include="BepInEx">
+            <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\BepInEx\core\BepInEx.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="0Harmony">
+            <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\BepInEx\core\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <!-- Unity 引擎 -->
+        <Reference Include="UnityEngine">
+            <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\60SecondsReatomized_Data\Managed\UnityEngine.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\60SecondsReatomized_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.InputLegacyModule">
+            <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\60SecondsReatomized_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.IMGUIModule">
+            <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\60SecondsReatomized_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <!-- 游戏代码 -->
+        <Reference Include="Assembly-CSharp">
+            <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\60SecondsReatomized_Data\Managed\Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+</Project>
