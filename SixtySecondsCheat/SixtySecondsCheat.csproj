@@ -5,13 +5,11 @@
         <TargetFramework>net472</TargetFramework>
         <AssemblyName>SixtySecondsCheat</AssemblyName>
         <LangVersion>latest</LangVersion>
-        
-        <!-- 添加这行，禁用自动生成 AssemblyInfo -->
+
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     </PropertyGroup>
 
     <ItemGroup>
-        <!-- BepInEx 核心 -->
         <Reference Include="BepInEx">
             <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\BepInEx\core\BepInEx.dll</HintPath>
             <Private>false</Private>
@@ -21,7 +19,6 @@
             <Private>false</Private>
         </Reference>
 
-        <!-- Unity 引擎 -->
         <Reference Include="UnityEngine">
             <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\60SecondsReatomized_Data\Managed\UnityEngine.dll</HintPath>
             <Private>false</Private>
@@ -39,7 +36,6 @@
             <Private>false</Private>
         </Reference>
 
-        <!-- 游戏代码 -->
         <Reference Include="Assembly-CSharp">
             <HintPath>D:\Gaming\Steam Games\steamapps\common\60 Seconds! Reatomized\60SecondsReatomized_Data\Managed\Assembly-CSharp.dll</HintPath>
             <Private>false</Private>
